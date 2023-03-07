@@ -1,0 +1,29 @@
+.tweetbox{
+    padding-bottom: 10px;
+    border-bottom: 8px solid var(--twitter-background);
+    padding-right: 10px;
+}
+.tweetbox > form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.tweetboxinput{
+    padding: 20px;
+    display: flex;
+
+}
+.tweetboxinput>input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+.tweetboxinput>input:focus{
+    border: none;
+    color: blueviolet;
+}
+.tweetbox__post{
+    background-color: var(--twitter-background);
+    color: white;
+}
